@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#zoo {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.animals section {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.animals section:last-child {
+    border-bottom: none;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.current p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+}
+
+.enclos {
+    display: flex;
+    gap: 10px;
+}
+
+.enclos > div {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+.animal {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
+
+.actions button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Section specific styles */
+.panda {
+    background-color: #e8f5e9;
+}
+
+.dauphin {
+    background-color: #e3f2fd;
+}
+
+.lion {
+    background-color: #fff3e0;
+}
